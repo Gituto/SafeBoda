@@ -17,12 +17,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Driver Test Cases/Login/TC_Driver Login</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9e99bd78-4eb8-4b45-b263-4755ab1b6786</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>08106e86-059e-4180-8e28-b95ddf8f6efb</guid>

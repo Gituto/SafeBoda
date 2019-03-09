@@ -13,6 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
+//Adding the Global Effect on the Apk location
+
 location = System.getenv('USERPROFILE')
 
 String filePathDriverApp = location + '/git/SafeBoda/SafeBoda Apps/app-driver.apk'

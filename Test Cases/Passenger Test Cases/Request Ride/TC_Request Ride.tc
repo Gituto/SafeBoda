@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>58c59ffe-6c48-418e-99a1-2e3696caf2ce</testCaseGuid>
    <variable>
-      <defaultValue>'Sheraton Kampala Hotel'</defaultValue>
+      <defaultValue>findTestData('Request Ride/TD_Request Ride').getValue(1, 1)</defaultValue>
       <description></description>
       <id>f5dea5f6-1c84-400c-a4d8-77116794b34d</id>
       <masked>false</masked>
       <name>destinationLocation</name>
    </variable>
    <variable>
-      <defaultValue>'kama inn'</defaultValue>
+      <defaultValue>findTestData('Request Ride/TD_Request Ride').getValue(2, 1)</defaultValue>
       <description></description>
       <id>61ef148e-df49-4e90-a4bb-c514d6d445ad</id>
       <masked>false</masked>
