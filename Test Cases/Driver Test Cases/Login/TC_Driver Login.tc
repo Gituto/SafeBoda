@@ -12,11 +12,4 @@
       <masked>false</masked>
       <name>phoneNumber</name>
    </variable>
-   <variable>
-      <defaultValue>'C:\\Users\\denni\\OneDrive\\Desktop\\SafeBoda\\app-driver.apk'</defaultValue>
-      <description></description>
-      <id>8b13af54-4ecf-495a-944a-6e513b00f126</id>
-      <masked>false</masked>
-      <name>driverAppLocation</name>
-   </variable>
 </TestCaseEntity>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Requesting Ride,,A collection of Testcases:\r\n1. Passenger requests for a Ride\r\n2. Driver Accepts the Ride,2019-03-09 12:52:26,2019-03-09 12:53:45,1m - 18.382s,FAILED
+,,,,,,
+Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride,,,2019-03-09 12:52:27,2019-03-09 12:53:43,1m - 16.319s,FAILED
+"startApplication(passengerAppLocation, false)",,,2019-03-09 12:52:28,2019-03-09 12:53:11,42.880s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 12:53:11,2019-03-09 12:53:43,32.507s,FAILED

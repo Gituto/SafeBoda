@@ -13,13 +13,6 @@
       <name>destinationLocation</name>
    </variable>
    <variable>
-      <defaultValue>'C:\\Users\\denni\\OneDrive\\Desktop\\SafeBoda\\app-passenger.apk'</defaultValue>
-      <description></description>
-      <id>9151ff15-ed00-45e4-8cd0-b243ffa129f3</id>
-      <masked>false</masked>
-      <name>passengerAppLocation</name>
-   </variable>
-   <variable>
       <defaultValue>'kama inn'</defaultValue>
       <description></description>
       <id>61ef148e-df49-4e90-a4bb-c514d6d445ad</id>

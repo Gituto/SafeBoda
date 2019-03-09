@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20190309_125616</name>
+   <tag></tag>
+   <displayName>20190309_125616</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/Driver Login/TS_Driver Login and Logout/20190309_125617</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>CUBOT CUBOT NOTE Plus (Android 7.0)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>C509XXBH81110634</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/Ride Request/TS_Requesting Ride/20190309_125618</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>CUBOT CUBOT NOTE Plus (Android 7.0)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>C509XXBH81110634</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

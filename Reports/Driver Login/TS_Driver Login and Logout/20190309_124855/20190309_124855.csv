@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Driver Login and Logout,,,2019-03-09 12:49:00,2019-03-09 12:50:15,1m - 14.711s,FAILED
+,,,,,,
+Test Cases/Driver Test Cases/Login/TC_Driver Login,,This is the Happy Path,2019-03-09 12:49:01,2019-03-09 12:50:15,1m - 13.861s,FAILED
+"startApplication(driverAppLocation, false)",,,2019-03-09 12:49:03,2019-03-09 12:50:15,1m - 11.772s,FAILED

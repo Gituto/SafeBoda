@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Driver Login and Logout,,,2019-03-09 12:56:21,2019-03-09 12:57:26,1m - 5.444s,PASSED
+,,,,,,
+Test Cases/Driver Test Cases/Login/TC_Driver Login,,This is the Happy Path,2019-03-09 12:56:21,2019-03-09 12:57:26,1m - 5.012s,PASSED
+"startApplication(driverAppLocation, false)",,,2019-03-09 12:56:22,2019-03-09 12:57:05,42.798s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-09 12:57:05,2019-03-09 12:57:08,3.058s,PASSED
+"tap(findTestObject(""Driver App/Login Screen/Button_Continue with Google""), 2)",,,2019-03-09 12:57:08,2019-03-09 12:57:11,3.220s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-03-09 12:57:11,2019-03-09 12:57:16,5.004s,PASSED
+"tap(findTestObject(""Driver App/Login Screen/Link-Email Account""), 2)",,,2019-03-09 12:57:16,2019-03-09 12:57:18,1.687s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-09 12:57:18,2019-03-09 12:57:21,3.005s,PASSED
+"callTestCase(findTestCase(""Driver Test Cases/Login/TC_Driver Logout""), [:], STOP_ON_FAILURE)",,,2019-03-09 12:57:21,2019-03-09 12:57:25,3.862s,PASSED
+closeApplication(),,,2019-03-09 12:57:25,2019-03-09 12:57:26,1.508s,PASSED

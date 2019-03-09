@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Requesting Ride,,A collection of Testcases:\r\n1. Passenger requests for a Ride\r\n2. Driver Accepts the Ride,2019-03-09 12:57:37,2019-03-09 12:58:56,1m - 19.140s,PASSED
+,,,,,,
+Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride,,,2019-03-09 12:57:37,2019-03-09 12:58:56,1m - 18.655s,PASSED
+"startApplication(passengerAppLocation, false)",,,2019-03-09 12:57:38,2019-03-09 12:58:21,42.323s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 12:58:21,2019-03-09 12:58:25,4.780s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 12:58:25,2019-03-09 12:58:29,3.550s,PASSED
+"sendKeys(findTestObject(""Passenger App/Request Ride Screen/input_Location""), destinationLocation)",,,2019-03-09 12:58:29,2019-03-09 12:58:31,2.236s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/dropdown_Pick upDestination Location""), 0)",,,2019-03-09 12:58:31,2019-03-09 12:58:35,3.693s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/icon_Search Pick Up""), 0)",,,2019-03-09 12:58:35,2019-03-09 12:58:36,1.064s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 12:58:36,2019-03-09 12:58:37,1.402s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 12:58:37,2019-03-09 12:58:40,2.390s,PASSED
+"sendKeys(findTestObject(""Passenger App/Request Ride Screen/input_Location""), pickUpLocation)",,,2019-03-09 12:58:40,2019-03-09 12:58:41,1.588s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/dropdown_Pick upDestination Location""), 0)",,,2019-03-09 12:58:41,2019-03-09 12:58:45,3.953s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/RadioButton_Cash""), 0)",,,2019-03-09 12:58:45,2019-03-09 12:58:46,1.138s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/Button_Request""), 0)",,,2019-03-09 12:58:46,2019-03-09 12:58:50,3.439s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-09 12:58:50,2019-03-09 12:58:53,3.029s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/Close_Pick up Screen""), 2)",,,2019-03-09 12:58:53,2019-03-09 12:58:54,1.613s,PASSED
+closeApplication(),,,2019-03-09 12:58:54,2019-03-09 12:58:56,1.458s,PASSED

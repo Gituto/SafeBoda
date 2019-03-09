@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(passengerAppLocation, false)
+location = System.getenv('USERPROFILE')
+
+String filepathPassengerApp = location + '/git/SafeBoda/SafeBoda Apps/app-passenger.apk'
+
+Mobile.startApplication(filepathPassengerApp, false)
 
 Mobile.tap(findTestObject('Passenger App/Request Ride Screen/input_Location'), 0)
 

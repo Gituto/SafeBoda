@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(driverAppLocation, false)
+location = System.getenv('USERPROFILE')
+
+String filePathDriverApp = location + '/git/SafeBoda/SafeBoda Apps/app-driver.apk'
+
+Mobile.startApplication(filePathDriverApp, false)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
