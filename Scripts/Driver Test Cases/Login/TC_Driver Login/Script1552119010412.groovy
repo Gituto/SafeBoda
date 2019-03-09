@@ -13,3 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication(driverAppLocation, false)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Driver App/Login Screen/Button_Continue with Google'), 2)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Driver App/Login Screen/Link-Email Account'), 2)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Driver Test Cases/Login/TC_Driver Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+

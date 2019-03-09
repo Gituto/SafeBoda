@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2019-03-07 23:51:31,2019-03-07 23:52:29,58.096s,PASSED
+,,,,,,
+Test Cases/Driver Test Cases/Login/Login,,This is the Happy Path,2019-03-07 23:51:32,2019-03-07 23:52:29,57.759s,PASSED
+"startApplication(""C:\Users\denni\OneDrive\Desktop\SafeBoda\app-driver.apk"", false)",,,2019-03-07 23:51:32,2019-03-07 23:52:12,40.151s,PASSED
+"tap(findTestObject(""Driver App/Login Screen/Button_Continue with Google""), 2)",,,2019-03-07 23:52:12,2019-03-07 23:52:16,3.512s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-07 23:52:16,2019-03-07 23:52:19,3.058s,PASSED
+"tap(findTestObject(""Driver App/Login Screen/Link-Email Account""), 2)",,,2019-03-07 23:52:19,2019-03-07 23:52:21,1.876s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-07 23:52:21,2019-03-07 23:52:24,3.009s,PASSED
+"callTestCase(findTestCase(""Driver Test Cases/Login/Logout""), [:], STOP_ON_FAILURE)",,,2019-03-07 23:52:24,2019-03-07 23:52:28,3.982s,PASSED
+closeApplication(),,,2019-03-07 23:52:28,2019-03-07 23:52:29,1.614s,PASSED

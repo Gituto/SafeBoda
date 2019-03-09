@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Requesting Ride,,A collection of Testcases:\r\n1. Passenger requests for a Ride\r\n2. Driver Accepts the Ride,2019-03-09 11:27:46,2019-03-09 11:29:09,1m - 22.432s,PASSED
+,,,,,,
+Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride,,,2019-03-09 11:27:47,2019-03-09 11:29:09,1m - 21.825s,PASSED
+"startApplication(passengerAppLocation, false)",,,2019-03-09 11:27:48,2019-03-09 11:28:33,45.236s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 11:28:33,2019-03-09 11:28:39,5.841s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 11:28:39,2019-03-09 11:28:42,3.389s,PASSED
+"sendKeys(findTestObject(""Passenger App/Request Ride Screen/input_Location""), destinationLocation)",,,2019-03-09 11:28:42,2019-03-09 11:28:44,1.363s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/dropdown_Pick upDestination Location""), 0)",,,2019-03-09 11:28:44,2019-03-09 11:28:48,4.250s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/icon_Search Pick Up""), 0)",,,2019-03-09 11:28:48,2019-03-09 11:28:49,1.233s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 11:28:49,2019-03-09 11:28:51,1.948s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-09 11:28:51,2019-03-09 11:28:53,1.426s,PASSED
+"sendKeys(findTestObject(""Passenger App/Request Ride Screen/input_Location""), pickUpLocation)",,,2019-03-09 11:28:53,2019-03-09 11:28:54,1.607s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/dropdown_Pick upDestination Location""), 0)",,,2019-03-09 11:28:54,2019-03-09 11:28:57,2.964s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/RadioButton_Cash""), 0)",,,2019-03-09 11:28:57,2019-03-09 11:29:00,2.714s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/Button_Request""), 0)",,,2019-03-09 11:29:00,2019-03-09 11:29:04,4.154s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-09 11:29:04,2019-03-09 11:29:07,3.035s,PASSED
+closeApplication(),,,2019-03-09 11:29:07,2019-03-09 11:29:09,1.505s,PASSED

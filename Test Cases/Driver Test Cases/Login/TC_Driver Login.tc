@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is the Happy Path</description>
+   <name>TC_Driver Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a5eb68a-b80a-431d-9160-82262566997b</testCaseGuid>
+   <variable>
+      <defaultValue>'0727662019'</defaultValue>
+      <description></description>
+      <id>9e99bd78-4eb8-4b45-b263-4755ab1b6786</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\denni\\OneDrive\\Desktop\\SafeBoda\\app-driver.apk'</defaultValue>
+      <description></description>
+      <id>8b13af54-4ecf-495a-944a-6e513b00f126</id>
+      <masked>false</masked>
+      <name>driverAppLocation</name>
+   </variable>
+</TestCaseEntity>

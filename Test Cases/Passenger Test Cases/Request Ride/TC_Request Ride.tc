@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Request Ride</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58c59ffe-6c48-418e-99a1-2e3696caf2ce</testCaseGuid>
+   <variable>
+      <defaultValue>'Sheraton Kampala Hotel'</defaultValue>
+      <description></description>
+      <id>f5dea5f6-1c84-400c-a4d8-77116794b34d</id>
+      <masked>false</masked>
+      <name>destinationLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\denni\\OneDrive\\Desktop\\SafeBoda\\app-passenger.apk'</defaultValue>
+      <description></description>
+      <id>9151ff15-ed00-45e4-8cd0-b243ffa129f3</id>
+      <masked>false</masked>
+      <name>passengerAppLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'kama inn'</defaultValue>
+      <description></description>
+      <id>61ef148e-df49-4e90-a4bb-c514d6d445ad</id>
+      <masked>false</masked>
+      <name>pickUpLocation</name>
+   </variable>
+</TestCaseEntity>

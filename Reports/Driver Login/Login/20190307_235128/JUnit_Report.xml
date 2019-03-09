@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="58" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="58" timestamp="2019-03-07 23:51:31" hostname="denni - 192.168.1.2" id="Test Suites/Driver Login/Login">
+      <properties>
+         <property name="deviceName" value="CUBOT CUBOT NOTE Plus (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\denni\\git\\SafeBoda\\Reports\\Driver Login\\Login\\20190307_235128"/>
+         <property name="logFiles" value="C:\\Users\\denni\\git\\SafeBoda\\Reports\\Driver Login\\Login\\20190307_235128\\appium.log, C:\\Users\\denni\\git\\SafeBoda\\Reports\\Driver Login\\Login\\20190307_235128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="denni - 192.168.1.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="CUBOT NOTE Plus"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="deviceManufacturer" value="CUBOT"/>
+         <property name="deviceId" value="C509XXBH81110634"/>
+         <property name="deviceName" value="CUBOT CUBOT NOTE Plus (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Driver Test Cases/Login/Login" classname="Test Cases/Driver Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2019-03-07 23:51:32 - [TEST_CASE][PASSED] - Test Cases/Driver Test Cases/Login/Login: Test Cases/Driver Test Cases/Login/Login
+
+2019-03-07 23:51:32 - [TEST_STEP][PASSED] - startApplication("C:\Users\denni\OneDrive\Desktop\SafeBoda\app-driver.apk", false): Started app at: 'C:\Users\denni\OneDrive\Desktop\SafeBoda\app-driver.apk'
+
+2019-03-07 23:51:36 - [MESSAGE][INFO] - Appium server started on port 50,589
+
+2019-03-07 23:52:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\denni\OneDrive\Desktop\SafeBoda\app-driver.apk'
+
+2019-03-07 23:52:12 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/Login Screen/Button_Continue with Google"), 2): Tapped on element 'Object Repository/Driver App/Login Screen/Button_Continue with Google'
+
+2019-03-07 23:52:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/Login Screen/Button_Continue with Google'
+
+2019-03-07 23:52:16 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-07 23:52:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 23:52:19 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/Login Screen/Link-Email Account"), 2): Tapped on element 'Object Repository/Driver App/Login Screen/Link-Email Account'
+
+2019-03-07 23:52:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/Login Screen/Link-Email Account'
+
+2019-03-07 23:52:21 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-07 23:52:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 23:52:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Driver Test Cases/Login/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Driver Test Cases/Login/Logout' successfully
+
+2019-03-07 23:52:24 - [TEST_CASE][PASSED] - Test Cases/Driver Test Cases/Login/Logout: Test Cases/Driver Test Cases/Login/Logout
+
+2019-03-07 23:52:24 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/SignOut on Menu Screen/Hamburger_Menu"), 2): Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Hamburger_Menu'
+
+2019-03-07 23:52:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Hamburger_Menu'
+
+2019-03-07 23:52:26 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/SignOut on Menu Screen/Link_SignOut"), 3): Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Link_SignOut'
+
+2019-03-07 23:52:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Link_SignOut'
+
+2019-03-07 23:52:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Driver Test Cases/Login/Logout' successfully
+
+2019-03-07 23:52:28 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-07 23:52:29 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-07 23:51:31 - [TEST_SUITE][PASSED] - Login: Test Cases/Driver Test Cases/Login/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
