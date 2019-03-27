@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Requesting Ride" time="218" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Requesting Ride" tests="2" failures="0" errors="0" time="218" timestamp="2019-03-10 20:48:48" hostname="denni - DESKTOP-VUJE207" id="Test Suites/Ride Request/TS_Requesting Ride">
+      <properties>
+         <property name="deviceName" value="CUBOT CUBOT NOTE Plus (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\denni\\git\\SafeBoda\\Reports\\Ride Request\\TS_Requesting Ride\\20190310_204845"/>
+         <property name="logFiles" value="C:\\Users\\denni\\git\\SafeBoda\\Reports\\Ride Request\\TS_Requesting Ride\\20190310_204845\\appium.log, C:\\Users\\denni\\git\\SafeBoda\\Reports\\Ride Request\\TS_Requesting Ride\\20190310_204845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="denni - DESKTOP-VUJE207"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="CUBOT NOTE Plus"/>
+         <property name="hostAddress" value="192.168.43.106"/>
+         <property name="deviceManufacturer" value="CUBOT"/>
+         <property name="deviceId" value="C509XXBH81110634"/>
+         <property name="deviceName" value="CUBOT CUBOT NOTE Plus (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Driver Test Cases/Login/TC_Driver Login" classname="Test Cases/Driver Test Cases/Login/TC_Driver Login" status="PASSED">
+         <system-out><![CDATA[2019-03-10 20:48:49 - [TEST_CASE][PASSED] - Test Cases/Driver Test Cases/Login/TC_Driver Login: Test Cases/Driver Test Cases/Login/TC_Driver Login
+
+2019-03-10 20:48:50 - [TEST_STEP][PASSED] - location = System.getenv("USERPROFILE"): null
+
+2019-03-10 20:48:50 - [TEST_STEP][PASSED] - filePathDriverApp = location + "/git/SafeBoda/SafeBoda Apps/app-driver.apk": null
+
+2019-03-10 20:48:50 - [TEST_STEP][PASSED] - startApplication(filePathDriverApp, false): Started app at: 'C:\Users\denni\git\SafeBoda\SafeBoda Apps\app-driver.apk'
+
+2019-03-10 20:48:56 - [MESSAGE][INFO] - Appium server started on port 55,150
+
+2019-03-10 20:49:57 - [MESSAGE][PASSED] - Started app at: 'C:\Users\denni\git\SafeBoda\SafeBoda Apps\app-driver.apk'
+
+2019-03-10 20:49:57 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-10 20:50:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 20:50:01 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/Login Screen/Button_Continue with Google"), 2): Tapped on element 'Object Repository/Driver App/Login Screen/Button_Continue with Google'
+
+2019-03-10 20:50:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/Login Screen/Button_Continue with Google'
+
+2019-03-10 20:50:03 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-03-10 20:50:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-10 20:50:08 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/Login Screen/Link-Email Account"), 2): Tapped on element 'Object Repository/Driver App/Login Screen/Link-Email Account'
+
+2019-03-10 20:50:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/Login Screen/Link-Email Account'
+
+2019-03-10 20:50:11 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-10 20:50:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 20:50:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Driver Test Cases/Login/TC_Driver Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Driver Test Cases/Login/TC_Driver Logout' successfully
+
+2019-03-10 20:50:14 - [TEST_CASE][PASSED] - Test Cases/Driver Test Cases/Login/TC_Driver Logout: Test Cases/Driver Test Cases/Login/TC_Driver Logout
+
+2019-03-10 20:50:14 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/SignOut on Menu Screen/Hamburger_Menu"), 2): Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Hamburger_Menu'
+
+2019-03-10 20:50:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Hamburger_Menu'
+
+2019-03-10 20:50:16 - [TEST_STEP][PASSED] - tap(findTestObject("Driver App/SignOut on Menu Screen/Link_SignOut"), 3): Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Link_SignOut'
+
+2019-03-10 20:50:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Driver App/SignOut on Menu Screen/Link_SignOut'
+
+2019-03-10 20:50:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Driver Test Cases/Login/TC_Driver Logout' successfully
+
+2019-03-10 20:50:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-10 20:50:21 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride" classname="Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride" status="PASSED">
+         <system-out><![CDATA[2019-03-10 20:50:21 - [TEST_CASE][PASSED] - Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride: Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride
+
+2019-03-10 20:50:23 - [TEST_STEP][PASSED] - location = System.getenv("USERPROFILE"): null
+
+2019-03-10 20:50:23 - [TEST_STEP][PASSED] - filepathPassengerApp = location + "/git/SafeBoda/SafeBoda Apps/app-passenger.apk": null
+
+2019-03-10 20:50:23 - [TEST_STEP][PASSED] - startApplication(filepathPassengerApp, false): Started app at: 'C:\Users\denni\git\SafeBoda\SafeBoda Apps\app-passenger.apk'
+
+2019-03-10 20:50:29 - [MESSAGE][INFO] - Appium server started on port 55,431
+
+2019-03-10 20:51:31 - [MESSAGE][PASSED] - Started app at: 'C:\Users\denni\git\SafeBoda\SafeBoda Apps\app-passenger.apk'
+
+2019-03-10 20:51:31 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/input_Location"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:51:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:51:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:51:38 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/input_Location"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:51:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:51:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Passenger App/Request Ride Screen/input_Location"), destinationLocation): Send keys 'Sheraton Kampala Hotel' on test object 'Object Repository/Passenger App/Request Ride Screen/input_Location' successfully.
+
+2019-03-10 20:51:43 - [MESSAGE][PASSED] - Send keys 'Sheraton Kampala Hotel' on test object 'Object Repository/Passenger App/Request Ride Screen/input_Location' successfully.
+
+2019-03-10 20:51:43 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/dropdown_Pick upDestination Location"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/dropdown_Pick upDestination Location'
+
+2019-03-10 20:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:51:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/dropdown_Pick upDestination Location'
+
+2019-03-10 20:51:48 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/icon_Search Pick Up"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/icon_Search Pick Up'
+
+2019-03-10 20:51:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:51:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/icon_Search Pick Up'
+
+2019-03-10 20:51:59 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/input_Location"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:51:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:52:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:52:02 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/input_Location"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:52:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:52:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/input_Location'
+
+2019-03-10 20:52:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Passenger App/Request Ride Screen/input_Location"), pickUpLocation): Send keys 'kama inn' on test object 'Object Repository/Passenger App/Request Ride Screen/input_Location' successfully.
+
+2019-03-10 20:52:08 - [MESSAGE][PASSED] - Send keys 'kama inn' on test object 'Object Repository/Passenger App/Request Ride Screen/input_Location' successfully.
+
+2019-03-10 20:52:08 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/dropdown_Pick upDestination Location"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/dropdown_Pick upDestination Location'
+
+2019-03-10 20:52:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:52:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/dropdown_Pick upDestination Location'
+
+2019-03-10 20:52:14 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/RadioButton_Cash"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/RadioButton_Cash'
+
+2019-03-10 20:52:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:52:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/RadioButton_Cash'
+
+2019-03-10 20:52:16 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/Button_Request"), 0): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/Button_Request'
+
+2019-03-10 20:52:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-10 20:52:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/Button_Request'
+
+2019-03-10 20:52:19 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-10 20:52:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-10 20:52:22 - [TEST_STEP][PASSED] - tap(findTestObject("Passenger App/Request Ride Screen/Close_Pick up Screen"), 2): Tapped on element 'Object Repository/Passenger App/Request Ride Screen/Close_Pick up Screen'
+
+2019-03-10 20:52:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Passenger App/Request Ride Screen/Close_Pick up Screen'
+
+2019-03-10 20:52:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-10 20:52:26 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-10 20:48:48 - [TEST_SUITE][PASSED] - TS_Requesting Ride: Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

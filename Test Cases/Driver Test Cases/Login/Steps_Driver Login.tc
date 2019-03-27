@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is the Happy Path</description>
+   <name>Steps_Driver Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a5eb68a-b80a-431d-9160-82262566997b</testCaseGuid>
+   <variable>
+      <defaultValue>'SafeBoda Driver'</defaultValue>
+      <description></description>
+      <id>4dcd62ad-0a9b-4d7f-a20f-efa0f8f77379</id>
+      <masked>false</masked>
+      <name>titleDriversHomeScreen</name>
+   </variable>
+</TestCaseEntity>

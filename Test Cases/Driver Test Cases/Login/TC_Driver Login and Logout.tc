@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case that logins and logouts a Driver.</description>
+   <name>TC_Driver Login and Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2805c377-c966-4b73-8c0b-2bdda9b0294d</testCaseGuid>
+</TestCaseEntity>

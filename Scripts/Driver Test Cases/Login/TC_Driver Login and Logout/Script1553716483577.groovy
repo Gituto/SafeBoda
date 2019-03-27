@@ -13,26 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Driver Test Cases/Login/Steps_Driver Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Adding the Global Effect on the Apk location
-
-location = System.getenv('USERPROFILE')
-
-String filePathDriverApp = location + '/git/SafeBoda/SafeBoda Apps/app-driver.apk'
-
-Mobile.startApplication(filePathDriverApp, false)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Driver App/Login Screen/Button_Continue with Google'), 2)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Driver App/Login Screen/Link-Email Account'), 2)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Driver Test Cases/Login/TC_Driver Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Driver Test Cases/Login/Steps_Driver Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

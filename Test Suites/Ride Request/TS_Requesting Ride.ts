@@ -16,13 +16,19 @@
       <guid>555d6e39-211a-46b7-8720-251423880977</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Driver Test Cases/Login/TC_Driver Login</testCaseId>
+      <testCaseId>Test Cases/Driver Test Cases/Login/Steps_Driver Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4dcd62ad-0a9b-4d7f-a20f-efa0f8f77379</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>08106e86-059e-4180-8e28-b95ddf8f6efb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride</testCaseId>
+      <testCaseId>Test Cases/Passenger Test Cases/Request Ride/Steps_Request A Ride</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

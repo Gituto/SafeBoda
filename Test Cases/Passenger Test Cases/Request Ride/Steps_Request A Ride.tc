@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>TC_Request Ride</name>
+   <description>Steps for a passenger to request a Ride</description>
+   <name>Steps_Request A Ride</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>58c59ffe-6c48-418e-99a1-2e3696caf2ce</testCaseGuid>

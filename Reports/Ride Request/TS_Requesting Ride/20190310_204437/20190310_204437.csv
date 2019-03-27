@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Requesting Ride,,A collection of Testcases:\n1. Passenger requests for a Ride\n2. Driver Accepts the Ride,2019-03-10 20:44:40,2019-03-10 20:47:39,2m - 59.085s,FAILED
+,,,,,,
+Test Cases/Driver Test Cases/Login/TC_Driver Login,,This is the Happy Path,2019-03-10 20:44:40,2019-03-10 20:45:50,1m - 10.036s,FAILED
+"location = System.getenv(""USERPROFILE"")",,,2019-03-10 20:44:41,2019-03-10 20:44:41,0.006s,PASSED
+"filePathDriverApp = location + ""/git/SafeBoda/SafeBoda Apps/app-driver.apk""",,,2019-03-10 20:44:41,2019-03-10 20:44:41,0.004s,PASSED
+"startApplication(filePathDriverApp, false)",,,2019-03-10 20:44:41,2019-03-10 20:45:41,1m - 0.345s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-10 20:45:41,2019-03-10 20:45:45,3.119s,PASSED
+"tap(findTestObject(""Driver App/Login Screen/Button_Continue with Google""), 2)",,,2019-03-10 20:45:45,2019-03-10 20:45:50,5.720s,FAILED
+,,,,,,
+Test Cases/Passenger Test Cases/Request Ride/TC_Request Ride,,,2019-03-10 20:45:50,2019-03-10 20:47:39,1m - 48.534s,PASSED
+"location = System.getenv(""USERPROFILE"")",,,2019-03-10 20:45:54,2019-03-10 20:45:54,0.001s,PASSED
+"filepathPassengerApp = location + ""/git/SafeBoda/SafeBoda Apps/app-passenger.apk""",,,2019-03-10 20:45:54,2019-03-10 20:45:54,0.001s,PASSED
+"startApplication(filepathPassengerApp, false)",,,2019-03-10 20:45:54,2019-03-10 20:46:49,55.193s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-10 20:46:49,2019-03-10 20:46:56,6.790s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-10 20:46:56,2019-03-10 20:47:02,6.203s,PASSED
+"sendKeys(findTestObject(""Passenger App/Request Ride Screen/input_Location""), destinationLocation)",,,2019-03-10 20:47:02,2019-03-10 20:47:05,2.900s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/dropdown_Pick upDestination Location""), 0)",,,2019-03-10 20:47:05,2019-03-10 20:47:10,4.879s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/icon_Search Pick Up""), 0)",,,2019-03-10 20:47:10,2019-03-10 20:47:14,4.083s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-10 20:47:14,2019-03-10 20:47:16,2.342s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/input_Location""), 0)",,,2019-03-10 20:47:16,2019-03-10 20:47:19,3.177s,PASSED
+"sendKeys(findTestObject(""Passenger App/Request Ride Screen/input_Location""), pickUpLocation)",,,2019-03-10 20:47:19,2019-03-10 20:47:21,1.783s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/dropdown_Pick upDestination Location""), 0)",,,2019-03-10 20:47:21,2019-03-10 20:47:27,5.556s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/RadioButton_Cash""), 0)",,,2019-03-10 20:47:27,2019-03-10 20:47:29,1.901s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/Button_Request""), 0)",,,2019-03-10 20:47:29,2019-03-10 20:47:33,3.926s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,2019-03-10 20:47:33,2019-03-10 20:47:36,3.005s,PASSED
+"tap(findTestObject(""Passenger App/Request Ride Screen/Close_Pick up Screen""), 2)",,,2019-03-10 20:47:36,2019-03-10 20:47:37,1.325s,PASSED
+closeApplication(),,,2019-03-10 20:47:37,2019-03-10 20:47:39,2.104s,PASSED

@@ -14,6 +14,12 @@
       <guid>7e52bf2e-3f32-495a-a234-39a22c9bd31b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Driver Test Cases/Login/TC_Driver Login</testCaseId>
+      <testCaseId>Test Cases/Driver Test Cases/Login/Steps_Driver Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4dcd62ad-0a9b-4d7f-a20f-efa0f8f77379</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
